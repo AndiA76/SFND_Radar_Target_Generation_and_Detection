@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SFND Radar Target Generation and Detection
   
 <p style="color:black;font-size:14px;">
@@ -475,7 +474,3 @@ Estimated target velocity    v_t_est = -1.8948e+01 m/s
   
 If we set the number of guard cells too low this cluster might fall apart into several peaks, and thus, could be falsely interpreted as multiple targets instead of a single one, which is not desired. Therefore, a larger protection zone around the cell under test with a sufficient number of guard cells is suitable in this case here. However, the larger the CFAR sliding window the larger is the minimum resolvable distance between two neighbouring targets as already stated above. Therefore, we have to make a compromise between a robust target identification and the minimum possible resolution between targets w. r. t. range and velocity.
   
-=======
-# SFND_Radar_Target_Generation_and_Detection
-Radar detection and tracking simulation project from Udacity's nano degree course "Sensor Fusion" 
->>>>>>> d6738d93757a3832a87737e12ca25359da69955b
